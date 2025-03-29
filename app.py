@@ -12,7 +12,7 @@ st.markdown("""
  <br>
 """, unsafe_allow_html=True)
 # กำหนด font ภาษาไทย
-font_path = "C:/Users/HP14-/Downloads/THSarabunNew/THSarabunNew Bold.ttf"  # แก้ไขพาธ font ของคุณ
+font_path = "THSarabunNew Bold.ttf"  # แก้ไขพาธ font ของคุณ
 try:
     font_manager.fontManager.addfont(font_path)
     plt.rcParams['font.family'] = 'TH Sarabun New'  # เปลี่ยนเป็นชื่อ font ของคุณ
