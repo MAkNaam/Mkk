@@ -26,7 +26,7 @@ except OSError as e :
 # อ่านไฟล์ data2020_2022_fixed.csv
 @st.cache_data
 def load_data():
-    return pd.read_csv("C:/Users/HP14-/Downloads/data2020_2022_fixed.csv") #แก้ไข path file
+    return pd.read_csv("data2020_2022_fixed.csv") #แก้ไข path file
 
 
 #------------------------------------------------------------------------------
